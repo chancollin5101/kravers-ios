@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+
+target 'KraversFinal' do
+project '/Users/collinchan/Desktop/KraversFinal/KraversFinal.xcodeproj'
+use_frameworks!
+
+# Pods for MilkShake
+
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
+pod 'CDYelpFusionKit', '1.5.0'
+pod 'pop', '1.0.10'
+pod 'SVProgressHUD'
+
+end
+
+

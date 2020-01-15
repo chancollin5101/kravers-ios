@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0155D34CE7E843D676E6B11 /* Pods_KraversFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9D6BE87FAB95557561BA6B /* Pods_KraversFinal.framework */; };
+		E902A71422FE14BB00DA12A4 /* SuggestionViewControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E902A71322FE14BB00DA12A4 /* SuggestionViewControllerModel.swift */; };
+		E92FF244213991B0005568E8 /* savedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92FF243213991B0005568E8 /* savedViewController.swift */; };
+		E92FF248213D8723005568E8 /* InitialMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92FF247213D8723005568E8 /* InitialMapViewController.swift */; };
+		E947B861212DAF7E008D3CA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947B860212DAF7E008D3CA8 /* AppDelegate.swift */; };
+		E947B866212DAF7E008D3CA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E947B864212DAF7E008D3CA8 /* Main.storyboard */; };
+		E947B86B212DAF80008D3CA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E947B869212DAF80008D3CA8 /* LaunchScreen.storyboard */; };
+		E947B876212DAF80008D3CA8 /* KraversFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947B875212DAF80008D3CA8 /* KraversFinalTests.swift */; };
+		E947B881212DAF80008D3CA8 /* KraversFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947B880212DAF80008D3CA8 /* KraversFinalUITests.swift */; };
+		E947B88F212DB010008D3CA8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E947B88E212DB010008D3CA8 /* Podfile */; };
+		E947B891212DB1EC008D3CA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E947B890212DB1EC008D3CA8 /* GoogleService-Info.plist */; };
+		E947B894212DB3C2008D3CA8 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947B893212DB3C2008D3CA8 /* InitialViewController.swift */; };
+		E947B896212DB3E0008D3CA8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947B895212DB3E0008D3CA8 /* MenuViewController.swift */; };
+		E947B898212DB3F3008D3CA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947B897212DB3F3008D3CA8 /* LoginViewController.swift */; };
+		E947B89A212DB40D008D3CA8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947B899212DB40D008D3CA8 /* SignUpViewController.swift */; };
+		E947B89F212DB468008D3CA8 /* RoundedWhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947B89E212DB468008D3CA8 /* RoundedWhiteButton.swift */; };
+		E947B8A1212DB47C008D3CA8 /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947B8A0212DB47C008D3CA8 /* HelperExtensions.swift */; };
+		E947B8A5212DB4D0008D3CA8 /* SuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947B8A4212DB4D0008D3CA8 /* SuggestionViewController.swift */; };
+		E947B8A7212DB4E5008D3CA8 /* contentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947B8A6212DB4E5008D3CA8 /* contentCard.swift */; };
+		E947B8AA212DB50C008D3CA8 /* CDYelpFusionKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947B8A9212DB50C008D3CA8 /* CDYelpFusionKitManager.swift */; };
+		E947B8AC212DB588008D3CA8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947B8AB212DB588008D3CA8 /* SearchViewController.swift */; };
+		E947B8B0212F2869008D3CA8 /* RoundedBlackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947B8AF212F2869008D3CA8 /* RoundedBlackButton.swift */; };
+		E96579372319F3DD00163DF1 /* kraversLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E96579362319F3DD00163DF1 /* kraversLogo.png */; };
+		E96FD8EA227CFC07007CDAEC /* tabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96FD8E9227CFC07007CDAEC /* tabBar.storyboard */; };
+		E9749F172175851100A52094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F162175851100A52094 /* ViewController.swift */; };
+		E9749F192175859900A52094 /* SwipeableCardViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F182175859900A52094 /* SwipeableCardViewContainer.swift */; };
+		E9749F1B217585E000A52094 /* SwipeableCardViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F1A217585E000A52094 /* SwipeableCardViewDelegate.swift */; };
+		E9749F1D2175860700A52094 /* SwipeableCardViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F1C2175860700A52094 /* SwipeableCardViewDataSource.swift */; };
+		E9749F1F2175861A00A52094 /* SwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F1E2175861A00A52094 /* SwipeableView.swift */; };
+		E9749F212175862E00A52094 /* SwipeableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F202175862E00A52094 /* SwipeableViewDelegate.swift */; };
+		E9749F232175864200A52094 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F222175864200A52094 /* SwipeDirection.swift */; };
+		E9749F252175865800A52094 /* CGPoint+SwipeableAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F242175865800A52094 /* CGPoint+SwipeableAdditions.swift */; };
+		E9749F272175866700A52094 /* CGRect+SwipeAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F262175866700A52094 /* CGRect+SwipeAdditions.swift */; };
+		E9749F292175867800A52094 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F282175867800A52094 /* NibView.swift */; };
+		E9749F2B2175868600A52094 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F2A2175868500A52094 /* UIView+Constraints.swift */; };
+		E9749F32217586E300A52094 /* SwipeableCardViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F30217586E300A52094 /* SwipeableCardViewCard.swift */; };
+		E9749F33217586E300A52094 /* SwipeableCardViewCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9749F31217586E300A52094 /* SwipeableCardViewCard.xib */; };
+		E9749F362175876800A52094 /* SampleSwipeableCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F342175876800A52094 /* SampleSwipeableCard.swift */; };
+		E9749F372175876800A52094 /* SampleSwipeableCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9749F352175876800A52094 /* SampleSwipeableCard.xib */; };
+		E9749F39217587FB00A52094 /* SampleSwipeableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F38217587FB00A52094 /* SampleSwipeableCellViewModel.swift */; };
+		E9749F3B2180BE8700A52094 /* popupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F3A2180BE8700A52094 /* popupViewController.swift */; };
+		E9749F3D2183CE6700A52094 /* accountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F3C2183CE6700A52094 /* accountViewController.swift */; };
+		E9A031E722F9D7CE00A9A75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A031E622F9D7CE00A9A75A /* Assets.xcassets */; };
+		E9BBBAF3231339C500BAC74C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9BBBAF2231339C400BAC74C /* Default-568h@2x.png */; };
+		E9CE9F8A2301D5DB00E6143E /* savedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CE9F892301D5DB00E6143E /* savedCell.swift */; };
+		E9DFBB0422FB142500ED4782 /* StoryboardNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFBB0322FB142500ED4782 /* StoryboardNavigation.swift */; };
+		E9FCF8B722F2480F003A158D /* kraversLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E9FCF8B622F2480F003A158D /* kraversLogo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E947B872212DAF80008D3CA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E947B855212DAF7E008D3CA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E947B85C212DAF7E008D3CA8;
+			remoteInfo = KraversFinal;
+		};
+		E947B87D212DAF80008D3CA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E947B855212DAF7E008D3CA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E947B85C212DAF7E008D3CA8;
+			remoteInfo = KraversFinal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D9D6BE87FAB95557561BA6B /* Pods_KraversFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KraversFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F65D763CE81CA9B53F26604 /* Pods-KraversFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KraversFinal.debug.xcconfig"; path = "../../Document/KraversFinal/KraversFinal/Pods/Target Support Files/Pods-KraversFinal/Pods-KraversFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		E902A71322FE14BB00DA12A4 /* SuggestionViewControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionViewControllerModel.swift; sourceTree = "<group>"; };
+		E92FF243213991B0005568E8 /* savedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = savedViewController.swift; path = ../KraversFinal11/savedViewController.swift; sourceTree = "<group>"; };
+		E92FF247213D8723005568E8 /* InitialMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InitialMapViewController.swift; path = ../KraversFinal11/InitialMapViewController.swift; sourceTree = "<group>"; };
+		E947B85D212DAF7E008D3CA8 /* KraversFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KraversFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E947B860212DAF7E008D3CA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../KraversFinal11/AppDelegate.swift; sourceTree = "<group>"; };
+		E947B865212DAF7E008D3CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E947B86A212DAF80008D3CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E947B86C212DAF80008D3CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../KraversFinal11/Info.plist; sourceTree = "<group>"; };
+		E947B871212DAF80008D3CA8 /* KraversFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KraversFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E947B875212DAF80008D3CA8 /* KraversFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KraversFinalTests.swift; sourceTree = "<group>"; };
+		E947B877212DAF80008D3CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E947B87C212DAF80008D3CA8 /* KraversFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KraversFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E947B880212DAF80008D3CA8 /* KraversFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KraversFinalUITests.swift; sourceTree = "<group>"; };
+		E947B882212DAF80008D3CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E947B88E212DB010008D3CA8 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../KraversFinal11/Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E947B890212DB1EC008D3CA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E947B893212DB3C2008D3CA8 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		E947B895212DB3E0008D3CA8 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E947B897212DB3F3008D3CA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E947B899212DB40D008D3CA8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E947B89E212DB468008D3CA8 /* RoundedWhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedWhiteButton.swift; sourceTree = "<group>"; };
+		E947B8A0212DB47C008D3CA8 /* HelperExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperExtensions.swift; sourceTree = "<group>"; };
+		E947B8A4212DB4D0008D3CA8 /* SuggestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionViewController.swift; sourceTree = "<group>"; };
+		E947B8A6212DB4E5008D3CA8 /* contentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentCard.swift; sourceTree = "<group>"; };
+		E947B8A9212DB50C008D3CA8 /* CDYelpFusionKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDYelpFusionKitManager.swift; sourceTree = "<group>"; };
+		E947B8AB212DB588008D3CA8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = ../KraversFinal11/SearchViewController.swift; sourceTree = "<group>"; };
+		E947B8AF212F2869008D3CA8 /* RoundedBlackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBlackButton.swift; sourceTree = "<group>"; };
+		E96579362319F3DD00163DF1 /* kraversLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kraversLogo.png; path = "../../../iCloud Drive (Archive)/Desktop/KraversFinal/KraversFinal11/Assets.xcassets/Regular Kravers Logo.imageset/kraversLogo.png"; sourceTree = "<group>"; };
+		E96FD8E9227CFC07007CDAEC /* tabBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = tabBar.storyboard; path = ../KraversFinal11/tabBar.storyboard; sourceTree = "<group>"; };
+		E9749F142163274900A52094 /* KraversFinal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = KraversFinal.entitlements; path = ../KraversFinal11/KraversFinal.entitlements; sourceTree = "<group>"; };
+		E9749F162175851100A52094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9749F182175859900A52094 /* SwipeableCardViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardViewContainer.swift; sourceTree = "<group>"; };
+		E9749F1A217585E000A52094 /* SwipeableCardViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardViewDelegate.swift; sourceTree = "<group>"; };
+		E9749F1C2175860700A52094 /* SwipeableCardViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardViewDataSource.swift; sourceTree = "<group>"; };
+		E9749F1E2175861A00A52094 /* SwipeableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableView.swift; sourceTree = "<group>"; };
+		E9749F202175862E00A52094 /* SwipeableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableViewDelegate.swift; sourceTree = "<group>"; };
+		E9749F222175864200A52094 /* SwipeDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeDirection.swift; sourceTree = "<group>"; };
+		E9749F242175865800A52094 /* CGPoint+SwipeableAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+SwipeableAdditions.swift"; sourceTree = "<group>"; };
+		E9749F262175866700A52094 /* CGRect+SwipeAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+SwipeAdditions.swift"; sourceTree = "<group>"; };
+		E9749F282175867800A52094 /* NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		E9749F2A2175868500A52094 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		E9749F30217586E300A52094 /* SwipeableCardViewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardViewCard.swift; sourceTree = "<group>"; };
+		E9749F31217586E300A52094 /* SwipeableCardViewCard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwipeableCardViewCard.xib; sourceTree = "<group>"; };
+		E9749F342175876800A52094 /* SampleSwipeableCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSwipeableCard.swift; sourceTree = "<group>"; };
+		E9749F352175876800A52094 /* SampleSwipeableCard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleSwipeableCard.xib; sourceTree = "<group>"; };
+		E9749F38217587FB00A52094 /* SampleSwipeableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSwipeableCellViewModel.swift; sourceTree = "<group>"; };
+		E9749F3A2180BE8700A52094 /* popupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popupViewController.swift; sourceTree = "<group>"; };
+		E9749F3C2183CE6700A52094 /* accountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = accountViewController.swift; path = ../KraversFinal11/accountViewController.swift; sourceTree = "<group>"; };
+		E9A031E622F9D7CE00A9A75A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../KraversFinal11/Assets.xcassets; sourceTree = "<group>"; };
+		E9BBBAF2231339C400BAC74C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E9CE9F892301D5DB00E6143E /* savedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = savedCell.swift; path = ../KraversFinal11/savedCell.swift; sourceTree = "<group>"; };
+		E9DFBB0322FB142500ED4782 /* StoryboardNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardNavigation.swift; sourceTree = "<group>"; };
+		E9FCF8B622F2480F003A158D /* kraversLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kraversLogo.png; path = "Assets.xcassets/Regular Kravers Logo.imageset/kraversLogo.png"; sourceTree = "<group>"; };
+		F6B777BF41E118DD808DAF66 /* Pods-KraversFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KraversFinal.release.xcconfig"; path = "../../Document/KraversFinal/KraversFinal/Pods/Target Support Files/Pods-KraversFinal/Pods-KraversFinal.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E947B85A212DAF7E008D3CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0155D34CE7E843D676E6B11 /* Pods_KraversFinal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E947B86E212DAF80008D3CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E947B879212DAF80008D3CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0153F812E2823BEA0FB96E82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F65D763CE81CA9B53F26604 /* Pods-KraversFinal.debug.xcconfig */,
+				F6B777BF41E118DD808DAF66 /* Pods-KraversFinal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		11DCEB5CEB91E2A35613ED90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D9D6BE87FAB95557561BA6B /* Pods_KraversFinal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E902A71222FE148F00DA12A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E902A71322FE14BB00DA12A4 /* SuggestionViewControllerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E947B854212DAF7E008D3CA8 = {
+			isa = PBXGroup;
+			children = (
+				E9BBBAF2231339C400BAC74C /* Default-568h@2x.png */,
+				E947B85F212DAF7E008D3CA8 /* KraversFinal */,
+				E947B874212DAF80008D3CA8 /* KraversFinalTests */,
+				E947B87F212DAF80008D3CA8 /* KraversFinalUITests */,
+				E947B85E212DAF7E008D3CA8 /* Products */,
+				0153F812E2823BEA0FB96E82 /* Pods */,
+				11DCEB5CEB91E2A35613ED90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E947B85E212DAF7E008D3CA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E947B85D212DAF7E008D3CA8 /* KraversFinal.app */,
+				E947B871212DAF80008D3CA8 /* KraversFinalTests.xctest */,
+				E947B87C212DAF80008D3CA8 /* KraversFinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E947B85F212DAF7E008D3CA8 /* KraversFinal */ = {
+			isa = PBXGroup;
+			children = (
+				E9DFBB0222FB141800ED4782 /* Model */,
+				E9749F142163274900A52094 /* KraversFinal.entitlements */,
+				E947B8A8212DB4FA008D3CA8 /* API */,
+				E947B892212DB3A1008D3CA8 /* Login and Signup */,
+				E947B8A3212DB4AF008D3CA8 /* Suggestion Swiping */,
+				E947B860212DAF7E008D3CA8 /* AppDelegate.swift */,
+				E947B8AB212DB588008D3CA8 /* SearchViewController.swift */,
+				E9CE9F892301D5DB00E6143E /* savedCell.swift */,
+				E92FF243213991B0005568E8 /* savedViewController.swift */,
+				E9749F3C2183CE6700A52094 /* accountViewController.swift */,
+				E947B864212DAF7E008D3CA8 /* Main.storyboard */,
+				E96FD8E9227CFC07007CDAEC /* tabBar.storyboard */,
+				E92FF247213D8723005568E8 /* InitialMapViewController.swift */,
+				E947B869212DAF80008D3CA8 /* LaunchScreen.storyboard */,
+				E9A031E622F9D7CE00A9A75A /* Assets.xcassets */,
+				E9FCF8B622F2480F003A158D /* kraversLogo.png */,
+				E947B86C212DAF80008D3CA8 /* Info.plist */,
+				E96579362319F3DD00163DF1 /* kraversLogo.png */,
+				E947B890212DB1EC008D3CA8 /* GoogleService-Info.plist */,
+				E947B88E212DB010008D3CA8 /* Podfile */,
+			);
+			path = KraversFinal;
+			sourceTree = "<group>";
+		};
+		E947B874212DAF80008D3CA8 /* KraversFinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				E947B875212DAF80008D3CA8 /* KraversFinalTests.swift */,
+				E947B877212DAF80008D3CA8 /* Info.plist */,
+			);
+			path = KraversFinalTests;
+			sourceTree = "<group>";
+		};
+		E947B87F212DAF80008D3CA8 /* KraversFinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E947B880212DAF80008D3CA8 /* KraversFinalUITests.swift */,
+				E947B882212DAF80008D3CA8 /* Info.plist */,
+			);
+			path = KraversFinalUITests;
+			sourceTree = "<group>";
+		};
+		E947B892212DB3A1008D3CA8 /* Login and Signup */ = {
+			isa = PBXGroup;
+			children = (
+				E947B893212DB3C2008D3CA8 /* InitialViewController.swift */,
+				E947B895212DB3E0008D3CA8 /* MenuViewController.swift */,
+				E947B897212DB3F3008D3CA8 /* LoginViewController.swift */,
+				E947B899212DB40D008D3CA8 /* SignUpViewController.swift */,
+				E947B89D212DB44B008D3CA8 /* Additional Resources */,
+			);
+			name = "Login and Signup";
+			path = "../KraversFinal11/Login and Signup";
+			sourceTree = "<group>";
+		};
+		E947B89D212DB44B008D3CA8 /* Additional Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E947B89E212DB468008D3CA8 /* RoundedWhiteButton.swift */,
+				E947B8AF212F2869008D3CA8 /* RoundedBlackButton.swift */,
+				E947B8A0212DB47C008D3CA8 /* HelperExtensions.swift */,
+			);
+			path = "Additional Resources";
+			sourceTree = "<group>";
+		};
+		E947B8A3212DB4AF008D3CA8 /* Suggestion Swiping */ = {
+			isa = PBXGroup;
+			children = (
+				E9749F15217584F200A52094 /* New and improved swiping */,
+				E947B8A4212DB4D0008D3CA8 /* SuggestionViewController.swift */,
+				E947B8A6212DB4E5008D3CA8 /* contentCard.swift */,
+			);
+			name = "Suggestion Swiping";
+			path = "../KraversFinal11/Suggestion Swiping";
+			sourceTree = "<group>";
+		};
+		E947B8A8212DB4FA008D3CA8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E947B8A9212DB50C008D3CA8 /* CDYelpFusionKitManager.swift */,
+			);
+			name = API;
+			path = ../KraversFinal11/API;
+			sourceTree = "<group>";
+		};
+		E9749F15217584F200A52094 /* New and improved swiping */ = {
+			isa = PBXGroup;
+			children = (
+				E902A71222FE148F00DA12A4 /* Models */,
+				E9749F162175851100A52094 /* ViewController.swift */,
+				E9749F3A2180BE8700A52094 /* popupViewController.swift */,
+				E9749F182175859900A52094 /* SwipeableCardViewContainer.swift */,
+				E9749F1A217585E000A52094 /* SwipeableCardViewDelegate.swift */,
+				E9749F1C2175860700A52094 /* SwipeableCardViewDataSource.swift */,
+				E9749F1E2175861A00A52094 /* SwipeableView.swift */,
+				E9749F202175862E00A52094 /* SwipeableViewDelegate.swift */,
+				E9749F222175864200A52094 /* SwipeDirection.swift */,
+				E9749F242175865800A52094 /* CGPoint+SwipeableAdditions.swift */,
+				E9749F262175866700A52094 /* CGRect+SwipeAdditions.swift */,
+				E9749F282175867800A52094 /* NibView.swift */,
+				E9749F2A2175868500A52094 /* UIView+Constraints.swift */,
+				E9749F30217586E300A52094 /* SwipeableCardViewCard.swift */,
+				E9749F31217586E300A52094 /* SwipeableCardViewCard.xib */,
+				E9749F342175876800A52094 /* SampleSwipeableCard.swift */,
+				E9749F352175876800A52094 /* SampleSwipeableCard.xib */,
+				E9749F38217587FB00A52094 /* SampleSwipeableCellViewModel.swift */,
+			);
+			path = "New and improved swiping";
+			sourceTree = "<group>";
+		};
+		E9DFBB0222FB141800ED4782 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9DFBB0322FB142500ED4782 /* StoryboardNavigation.swift */,
+			);
+			name = Model;
+			path = ../KraversFinal11/Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E947B85C212DAF7E008D3CA8 /* KraversFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E947B885212DAF80008D3CA8 /* Build configuration list for PBXNativeTarget "KraversFinal" */;
+			buildPhases = (
+				D37292429A4E5964A630C2C5 /* [CP] Check Pods Manifest.lock */,
+				E947B859212DAF7E008D3CA8 /* Sources */,
+				E947B85A212DAF7E008D3CA8 /* Frameworks */,
+				E947B85B212DAF7E008D3CA8 /* Resources */,
+				B531D935E3B5E10E1A5F44F9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KraversFinal;
+			productName = KraversFinal;
+			productReference = E947B85D212DAF7E008D3CA8 /* KraversFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E947B870212DAF80008D3CA8 /* KraversFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E947B888212DAF80008D3CA8 /* Build configuration list for PBXNativeTarget "KraversFinalTests" */;
+			buildPhases = (
+				E947B86D212DAF80008D3CA8 /* Sources */,
+				E947B86E212DAF80008D3CA8 /* Frameworks */,
+				E947B86F212DAF80008D3CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E947B873212DAF80008D3CA8 /* PBXTargetDependency */,
+			);
+			name = KraversFinalTests;
+			productName = KraversFinalTests;
+			productReference = E947B871212DAF80008D3CA8 /* KraversFinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E947B87B212DAF80008D3CA8 /* KraversFinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E947B88B212DAF80008D3CA8 /* Build configuration list for PBXNativeTarget "KraversFinalUITests" */;
+			buildPhases = (
+				E947B878212DAF80008D3CA8 /* Sources */,
+				E947B879212DAF80008D3CA8 /* Frameworks */,
+				E947B87A212DAF80008D3CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E947B87E212DAF80008D3CA8 /* PBXTargetDependency */,
+			);
+			name = KraversFinalUITests;
+			productName = KraversFinalUITests;
+			productReference = E947B87C212DAF80008D3CA8 /* KraversFinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E947B855212DAF7E008D3CA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Collin Chan";
+				TargetAttributes = {
+					E947B85C212DAF7E008D3CA8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					E947B870212DAF80008D3CA8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E947B85C212DAF7E008D3CA8;
+					};
+					E947B87B212DAF80008D3CA8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E947B85C212DAF7E008D3CA8;
+					};
+				};
+			};
+			buildConfigurationList = E947B858212DAF7E008D3CA8 /* Build configuration list for PBXProject "KraversFinal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E947B854212DAF7E008D3CA8;
+			productRefGroup = E947B85E212DAF7E008D3CA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E947B85C212DAF7E008D3CA8 /* KraversFinal */,
+				E947B870212DAF80008D3CA8 /* KraversFinalTests */,
+				E947B87B212DAF80008D3CA8 /* KraversFinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E947B85B212DAF7E008D3CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E947B86B212DAF80008D3CA8 /* LaunchScreen.storyboard in Resources */,
+				E96579372319F3DD00163DF1 /* kraversLogo.png in Resources */,
+				E9749F372175876800A52094 /* SampleSwipeableCard.xib in Resources */,
+				E9749F33217586E300A52094 /* SwipeableCardViewCard.xib in Resources */,
+				E9BBBAF3231339C500BAC74C /* Default-568h@2x.png in Resources */,
+				E9FCF8B722F2480F003A158D /* kraversLogo.png in Resources */,
+				E96FD8EA227CFC07007CDAEC /* tabBar.storyboard in Resources */,
+				E947B891212DB1EC008D3CA8 /* GoogleService-Info.plist in Resources */,
+				E947B88F212DB010008D3CA8 /* Podfile in Resources */,
+				E9A031E722F9D7CE00A9A75A /* Assets.xcassets in Resources */,
+				E947B866212DAF7E008D3CA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E947B86F212DAF80008D3CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E947B87A212DAF80008D3CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B531D935E3B5E10E1A5F44F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KraversFinal/Pods-KraversFinal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KraversFinal/Pods-KraversFinal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KraversFinal/Pods-KraversFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D37292429A4E5964A630C2C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KraversFinal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E947B859212DAF7E008D3CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9749F212175862E00A52094 /* SwipeableViewDelegate.swift in Sources */,
+				E947B89A212DB40D008D3CA8 /* SignUpViewController.swift in Sources */,
+				E947B8A1212DB47C008D3CA8 /* HelperExtensions.swift in Sources */,
+				E9749F39217587FB00A52094 /* SampleSwipeableCellViewModel.swift in Sources */,
+				E947B89F212DB468008D3CA8 /* RoundedWhiteButton.swift in Sources */,
+				E9749F1F2175861A00A52094 /* SwipeableView.swift in Sources */,
+				E92FF244213991B0005568E8 /* savedViewController.swift in Sources */,
+				E9749F252175865800A52094 /* CGPoint+SwipeableAdditions.swift in Sources */,
+				E9749F362175876800A52094 /* SampleSwipeableCard.swift in Sources */,
+				E947B894212DB3C2008D3CA8 /* InitialViewController.swift in Sources */,
+				E9749F1B217585E000A52094 /* SwipeableCardViewDelegate.swift in Sources */,
+				E947B8A5212DB4D0008D3CA8 /* SuggestionViewController.swift in Sources */,
+				E9749F2B2175868600A52094 /* UIView+Constraints.swift in Sources */,
+				E9749F3B2180BE8700A52094 /* popupViewController.swift in Sources */,
+				E947B8B0212F2869008D3CA8 /* RoundedBlackButton.swift in Sources */,
+				E9749F1D2175860700A52094 /* SwipeableCardViewDataSource.swift in Sources */,
+				E947B8AC212DB588008D3CA8 /* SearchViewController.swift in Sources */,
+				E947B861212DAF7E008D3CA8 /* AppDelegate.swift in Sources */,
+				E9749F3D2183CE6700A52094 /* accountViewController.swift in Sources */,
+				E9749F172175851100A52094 /* ViewController.swift in Sources */,
+				E9749F232175864200A52094 /* SwipeDirection.swift in Sources */,
+				E947B898212DB3F3008D3CA8 /* LoginViewController.swift in Sources */,
+				E9CE9F8A2301D5DB00E6143E /* savedCell.swift in Sources */,
+				E9749F192175859900A52094 /* SwipeableCardViewContainer.swift in Sources */,
+				E9749F32217586E300A52094 /* SwipeableCardViewCard.swift in Sources */,
+				E9749F292175867800A52094 /* NibView.swift in Sources */,
+				E902A71422FE14BB00DA12A4 /* SuggestionViewControllerModel.swift in Sources */,
+				E947B8A7212DB4E5008D3CA8 /* contentCard.swift in Sources */,
+				E9749F272175866700A52094 /* CGRect+SwipeAdditions.swift in Sources */,
+				E947B896212DB3E0008D3CA8 /* MenuViewController.swift in Sources */,
+				E947B8AA212DB50C008D3CA8 /* CDYelpFusionKitManager.swift in Sources */,
+				E9DFBB0422FB142500ED4782 /* StoryboardNavigation.swift in Sources */,
+				E92FF248213D8723005568E8 /* InitialMapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E947B86D212DAF80008D3CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E947B876212DAF80008D3CA8 /* KraversFinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E947B878212DAF80008D3CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E947B881212DAF80008D3CA8 /* KraversFinalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E947B873212DAF80008D3CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E947B85C212DAF7E008D3CA8 /* KraversFinal */;
+			targetProxy = E947B872212DAF80008D3CA8 /* PBXContainerItemProxy */;
+		};
+		E947B87E212DAF80008D3CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E947B85C212DAF7E008D3CA8 /* KraversFinal */;
+			targetProxy = E947B87D212DAF80008D3CA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E947B864212DAF7E008D3CA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E947B865212DAF7E008D3CA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E947B869212DAF80008D3CA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E947B86A212DAF80008D3CA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E947B883212DAF80008D3CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E947B884212DAF80008D3CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E947B886212DAF80008D3CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F65D763CE81CA9B53F26604 /* Pods-KraversFinal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KraversFinal/KraversFinal.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 548536DC9D;
+				INFOPLIST_FILE = KraversFinal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kravers.KraversFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E947B887212DAF80008D3CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B777BF41E118DD808DAF66 /* Pods-KraversFinal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KraversFinal/KraversFinal.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 548536DC9D;
+				INFOPLIST_FILE = KraversFinal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kravers.KraversFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E947B889212DAF80008D3CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KraversFinalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kravers.KraversFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KraversFinal.app/KraversFinal";
+			};
+			name = Debug;
+		};
+		E947B88A212DAF80008D3CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KraversFinalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kravers.KraversFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KraversFinal.app/KraversFinal";
+			};
+			name = Release;
+		};
+		E947B88C212DAF80008D3CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KraversFinalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kravers.KraversFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KraversFinal;
+			};
+			name = Debug;
+		};
+		E947B88D212DAF80008D3CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KraversFinalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kravers.KraversFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KraversFinal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E947B858212DAF7E008D3CA8 /* Build configuration list for PBXProject "KraversFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E947B883212DAF80008D3CA8 /* Debug */,
+				E947B884212DAF80008D3CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E947B885212DAF80008D3CA8 /* Build configuration list for PBXNativeTarget "KraversFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E947B886212DAF80008D3CA8 /* Debug */,
+				E947B887212DAF80008D3CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E947B888212DAF80008D3CA8 /* Build configuration list for PBXNativeTarget "KraversFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E947B889212DAF80008D3CA8 /* Debug */,
+				E947B88A212DAF80008D3CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E947B88B212DAF80008D3CA8 /* Build configuration list for PBXNativeTarget "KraversFinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E947B88C212DAF80008D3CA8 /* Debug */,
+				E947B88D212DAF80008D3CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E947B855212DAF7E008D3CA8 /* Project object */;
+}
