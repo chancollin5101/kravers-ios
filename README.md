@@ -4,7 +4,7 @@ Kravers is an iOS Application aimed to help users on their decisions with restau
 ## Installation
 Open up terminal 
 ```bash
-cd dir/KraversFinal
+cd .../KraversFinal
 pod init 
 pod install
 ```
