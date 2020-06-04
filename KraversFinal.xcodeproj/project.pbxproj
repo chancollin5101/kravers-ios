@@ -49,6 +49,7 @@
 		E9749F39217587FB00A52094 /* SampleSwipeableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F38217587FB00A52094 /* SampleSwipeableCellViewModel.swift */; };
 		E9749F3B2180BE8700A52094 /* popupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F3A2180BE8700A52094 /* popupViewController.swift */; };
 		E9749F3D2183CE6700A52094 /* accountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749F3C2183CE6700A52094 /* accountViewController.swift */; };
+		E99BC83E248878AF004BDE87 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99BC83D248878AF004BDE87 /* Constants.swift */; };
 		E9A031E722F9D7CE00A9A75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A031E622F9D7CE00A9A75A /* Assets.xcassets */; };
 		E9BBBAF3231339C500BAC74C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9BBBAF2231339C400BAC74C /* Default-568h@2x.png */; };
 		E9CE9F8A2301D5DB00E6143E /* savedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CE9F892301D5DB00E6143E /* savedCell.swift */; };
@@ -124,6 +125,7 @@
 		E9749F38217587FB00A52094 /* SampleSwipeableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSwipeableCellViewModel.swift; sourceTree = "<group>"; };
 		E9749F3A2180BE8700A52094 /* popupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popupViewController.swift; sourceTree = "<group>"; };
 		E9749F3C2183CE6700A52094 /* accountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = accountViewController.swift; path = ../KraversFinal11/accountViewController.swift; sourceTree = "<group>"; };
+		E99BC83D248878AF004BDE87 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E9A031E622F9D7CE00A9A75A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../KraversFinal11/Assets.xcassets; sourceTree = "<group>"; };
 		E9BBBAF2231339C400BAC74C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E9CE9F892301D5DB00E6143E /* savedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = savedCell.swift; path = ../KraversFinal11/savedCell.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				E96579362319F3DD00163DF1 /* kraversLogo.png */,
 				E947B890212DB1EC008D3CA8 /* GoogleService-Info.plist */,
 				E947B88E212DB010008D3CA8 /* Podfile */,
+				E99BC83D248878AF004BDE87 /* Constants.swift */,
 			);
 			path = KraversFinal;
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9749F212175862E00A52094 /* SwipeableViewDelegate.swift in Sources */,
+				E99BC83E248878AF004BDE87 /* Constants.swift in Sources */,
 				E947B89A212DB40D008D3CA8 /* SignUpViewController.swift in Sources */,
 				E947B8A1212DB47C008D3CA8 /* HelperExtensions.swift in Sources */,
 				E9749F39217587FB00A52094 /* SampleSwipeableCellViewModel.swift in Sources */,

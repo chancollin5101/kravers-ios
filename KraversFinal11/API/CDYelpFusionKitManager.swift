@@ -17,6 +17,6 @@ final class CDYelpFusionKitManager: NSObject {
     
     func configure() {
         // How to authorize using your clientId and clientSecret
-        self.apiClient = CDYelpAPIClient(apiKey: "gVwZMoFzkOUErzkw-FePLWLpVlA2u6xwBiWws9c0ePO9fweNrr7pb-mk_cF7tzJmlVN0lJTMwdO4AzEy-O_hQTmYqblmJ1XHDXZh2_eTFEn-mOvcl_wCtXxTf9BAW3Yx")
+        self.apiClient = CDYelpAPIClient(apiKey: yelp_api_key)
     }
 }
